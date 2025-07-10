@@ -24,7 +24,7 @@ public class ExceptionHandlerG {
         return new ResponseEntity<>(
                 Map.of("mensaje","Error del servidor", "fecha", LocalDateTime.now()),
                 HttpStatus.INTERNAL_SERVER_ERROR
-        )
+        );
     }
 
 }
